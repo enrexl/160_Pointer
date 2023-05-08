@@ -5,10 +5,10 @@ class mahasiswa {
 public:
     int nim;
     void showNim(); //Deklarasi method
-}
+};
 
 void mahasiswa::showNim() { //Implementasi methode diluar class
-    cout << "NO Induk = " << nim << endll;
+    cout << "NO Induk = " << nim << endl;
         }
 
 
