@@ -14,7 +14,10 @@ void setNama(mahasiswa& a, string pNama) {
     cout << "Nama : " << a.nama;
 }
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+int main() {
+    mahasiswa satu;
+    setNama(satu, "Joko Kumattt");
+    //  cout << endl;
+    system("pause");
+    return 0;
+};
