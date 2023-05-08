@@ -14,5 +14,6 @@ void mahasiswa::showNim() { //Implementasi methode diluar class
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs{ 1 }; //  
+    mhs.showNim();
 }
