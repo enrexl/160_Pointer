@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 
 class mahasiswa {
@@ -17,7 +17,7 @@ void setNama(mahasiswa& a, string pNama) {
 int main() {
     mahasiswa satu;
     setNama(satu, "Joko Kumattt");
-    //  cout << endl;
+    cout << endl;
     system("pause");
     return 0;
 };
